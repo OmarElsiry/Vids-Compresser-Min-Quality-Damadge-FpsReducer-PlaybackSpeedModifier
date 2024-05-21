@@ -60,4 +60,4 @@ This script offers a flexible and efficient solution for video processing. By op
 - Consider integrating additional video processing tools for further optimization.
 
 ## Credits
-Developed by [Your Name]
+Developed by [Omar E.Elsiry]
