@@ -13,7 +13,7 @@ Ensure you have:
 
 ## 📂 How to Use This Script
 
-1. Fork or clone this repository.
+1. Clone this repository.   ```git clone https://github.com/OmarElsiry/vid_playback_speed_modifier.git```
 2. Change the video file path in the script to match your target video.
 3. Execute the script with Python. It'll process your video based on the settings you've chosen.
 
