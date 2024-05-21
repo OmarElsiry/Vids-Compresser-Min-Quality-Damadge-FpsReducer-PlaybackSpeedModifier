@@ -8,7 +8,6 @@ This script enhances video processing by dynamically adjusting frame rates, conv
 ### Prerequisites
 - Python 3.x
 - MoviePy library (`pip install moviepy`)
-- Multiprocessing library (`pip install multiprocessing`)
 
 ## Usage
 
