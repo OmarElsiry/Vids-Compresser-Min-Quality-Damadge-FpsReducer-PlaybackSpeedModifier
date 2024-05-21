@@ -9,7 +9,8 @@ This script revolutionizes video processing by intelligently adjusting frame rat
 ### Prerequisites
 Ensure you have:
 - Python 3.x installed
-- The MoviePy library (`pip install moviepy`)
+- The MoviePy library ```terminal(`pip install moviepy`)
+```
 
 ## 📂 How to Use This Script
 
