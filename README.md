@@ -44,10 +44,6 @@ Fine-tune playback speed to strike the right balance between video length and qu
 
 Your ideas could take this script to the next level. Follow our standard contribution process to share your enhancements.
 
-## 📜 License
-
-This script operates under the MIT License.
-
 ## 🗺️ Table of Contents
 - [🎥 Enhance Your Videos with Efficiency](#-enhance-your-videos-with-efficiency)
 - [🛠️ Getting Started](#-getting-started)
@@ -55,8 +51,6 @@ This script operates under the MIT License.
 - [🚀 Key Features](#-key-features)
 - [🌟 Advanced Use Cases](#-advanced-use-cases)
 - [👥 Contributing](#-contributing)
-- [📜 License](#-license)
-
 
 ## 🌟 Advanced Use Cases
 
