@@ -1,14 +1,14 @@
 # Video Editing Script for Efficient Video Processing
 
 ## Project Overview
-This script optimizes video processing by reducing frame rates, converting formats to H.265, and adjusting playback speeds. It aims to minimize file sizes while preserving video quality.
+This script enhances video processing by dynamically adjusting frame rates, converting formats to H.265, and modifying playback speeds. It aims to optimize file sizes while maintaining high-quality video output.
 
 ## Installation and Setup
 
 ### Prerequisites
 - Python 3.x
-- MoviePy library
-- Multiprocessing library
+- MoviePy library (`pip install moviepy`)
+- Multiprocessing library (`pip install multiprocessing`)
 
 ## Usage
 
@@ -16,9 +16,26 @@ This script optimizes video processing by reducing frame rates, converting forma
 2. Update the video file path in the script to match your desired input file.
 3. Run the script using Python; it will process the video according to the specified settings.
 
+## Features
+
+### Dynamic Frame Rate Adjustment
+Allows users to manually set the frame rate or automatically adjusts it for optimized processing.
+
+### Scene Cutting
+Enables precise scene selection for custom video editing needs.
+
+### Mute Option
+Provides an option to mute the video for privacy or background noise reduction.
+
+### Parallel Processing
+Leverages multiprocessing to distribute video processing across multiple CPU cores, enhancing efficiency.
+
+### Playback Speed Adjustment
+Facilitates easy adjustment of playback speed to balance between video length and quality.
+
 ## Contributing
 
-We welcome contributions to improve this script. Please follow our standard contribution process.
+We welcome contributions to enhance this script. Please follow our standard contribution process.
 
 ## License
 The script is licensed under the MIT License.
@@ -26,6 +43,7 @@ The script is licensed under the MIT License.
 ## Table of Contents
 - [Project Title and Description](#project-overview)
 - [Installation and Setup](#installation-and-setup)
+- [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -35,30 +53,29 @@ The script is licensed under the MIT License.
 ### Video Processing Settings
 
 #### Frame Rate Reduction
-The script reduces the frame rate for improved processing efficiency.
+Automatically or manually adjustable for improved processing efficiency.
 
 #### Format Conversion
-It converts videos to H.265 for better compression.
+Converts videos to H.265 for superior compression and smaller file sizes.
 
 #### Playback Speed Adjustment
-Adjusts playback speed as needed to achieve the desired file size.
+Customizable to achieve the desired balance between video duration and quality.
 
 ### Performance Optimization
 
 #### CPU Core Utilization
-Utilizes 75% of available CPU cores for parallel processing.
+Maximizes available CPU cores for parallel processing, speeding up video editing tasks.
 
 #### Sequential Processing
-Processes each video segment sequentially for efficient handling.
+Ensures each video segment is processed sequentially for reliable and efficient handling.
 
 ## Conclusion
-This script offers a flexible and efficient solution for video processing. By optimizing frame rates, converting formats, and adjusting playback speeds, it significantly reduces file sizes without compromising quality. Its performance is enhanced by utilizing CPU cores efficiently and processing segments sequentially.
+This script provides a powerful and flexible tool for video processing. By offering dynamic adjustments to frame rates, scene cutting, muting options, and leveraging parallel processing, it significantly improves video editing workflows.
 
 ## Additional Tips
-- Ensure the input video is compatible with MoviePy for optimal processing.
-- Adjust playback speed as needed to meet your file size goals.
-- Consider integrating additional video processing tools for further optimization.
+- Verify that the input video is compatible with MoviePy for optimal processing outcomes.
+- Experiment with different playback speeds to find the perfect balance for your projects.
+- Explore integrating other video processing tools for even greater flexibility and control.
 
 ## Credits
 Developed by [Omar E. Elsiry](https://github.com/OmarElsiry)
-
