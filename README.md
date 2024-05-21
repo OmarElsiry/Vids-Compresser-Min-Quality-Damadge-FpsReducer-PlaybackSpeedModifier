@@ -49,12 +49,14 @@ Your ideas could take this script to the next level. Follow our standard contrib
 This script operates under the MIT License.
 
 ## 🗺️ Table of Contents
-- [🎥 Project Overview](#project-overview)
-- [🛠️ Installation and Setup](#installation-and-setup)
-- [🚀 Key Features](#key-features)
+- [🎥 Enhance Your Videos with Efficiency](#enhance-your-videos-with-efficiency)
+- [🛠️ Getting Started](#getting-started)
 - [📂 How to Use This Script](#how-to-use-this-script)
+- [🚀 Key Features](#key-features)
+- [🌟 Advanced Use Cases](#advanced-use-cases)
 - [👥 Contributing](#contributing)
 - [📜 License](#license)
+
 
 ## 🌟 Advanced Use Cases
 
