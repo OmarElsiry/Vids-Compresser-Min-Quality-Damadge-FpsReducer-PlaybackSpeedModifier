@@ -29,14 +29,14 @@ Cut precisely where you need to, giving you full control over your edits.
 Mute your video for privacy or to reduce background noise effortlessly.
 
 ### 🧩 Parallel Processing
-Boost efficiency by distributing video processing across multiple CPU cores.
+Boost efficiency by distributing video processing across multiple CPU cores using `ThreadPoolExecutor`.
 
 ### ⏱️ Playback Speed Adjustment
 Fine-tune playback speed to strike the right balance between video length and quality.
 
 ## 👥 Contributing
 
-Your ideas could take this script to the next level Follow our standard contribution process to share your enhancements.
+Your ideas could take this script to the next level. Follow our standard contribution process to share your enhancements.
 
 ## 📜 License
 
@@ -66,7 +66,7 @@ Customize playback speed to achieve the ideal balance between video duration and
 ### 🚀 Performance Optimization
 
 #### 🖥️ CPU Core Utilization
-Fully utilize available CPU cores for faster video editing tasks.
+Fully utilize available CPU cores for faster video editing tasks using `ThreadPoolExecutor`.
 
 #### 🔄 Sequential Processing
 Process each video segment sequentially for reliability and efficiency.
