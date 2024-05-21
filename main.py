@@ -9,7 +9,7 @@ def process_segment(segment):
     return segment.fx(speedx, 1.285).set_fps(21)
 
 
-if __name__ == "__main__":
+def main():
     start_time = time.perf_counter()
 
     # Load the original video file
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         part1 = video.subclip(0, midpoint)
         # Extract the second half of the video
         part2 = video.subclip(midpoint, video.duration)
-        
+
     # Ask the user if they want the video to be muted
     mute_video = input("Do you want the video to be muted? (y/n): ").lower()
     if mute_video == "y":
@@ -96,3 +96,7 @@ if __name__ == "__main__":
 
     end_time = time.perf_counter()
     print(f"Processing completed in {end_time - start_time:.2f} seconds")
+
+
+if __name__ == "__main__":
+    main()
