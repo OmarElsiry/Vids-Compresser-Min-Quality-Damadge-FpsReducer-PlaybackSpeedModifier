@@ -107,7 +107,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 <div align="center">
 
-![GitHub followers](https://img.shields.io/github/followers/yourusername?style=social) 
+![GitHub followers](https://img.shields.io/github/followers/OmarElsiry?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/yourusername/video-processor-gui?style=social)
 
 </div>
