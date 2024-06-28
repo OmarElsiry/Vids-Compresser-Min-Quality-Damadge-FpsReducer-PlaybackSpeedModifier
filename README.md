@@ -95,8 +95,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-- **Author**: [Your Name](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **Author**: [Omar Elsiry](https://github.com/OmarElsiry)
+- **Email**: OmarElsiry010@gmail.com
 
 ---
 
@@ -114,4 +114,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/OmarElsiry)
+Made with ❤️ by [Omar Elsiry](https://github.com/OmarElsiry)
