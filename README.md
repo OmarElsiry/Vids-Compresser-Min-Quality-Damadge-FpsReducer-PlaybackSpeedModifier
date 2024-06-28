@@ -1,86 +1,117 @@
-# Video Editing Script for Efficient Video Processing
+# 🎬 Video Processor GUI
 
-## 🎥 Enhance Your Videos with Efficiency
+Welcome to the **Video Processor GUI** project! This tool allows you to easily process video files, adjust playback speed, cut scenes, mute audio, and more, all through an intuitive graphical user interface.
 
-This script revolutionizes video processing by intelligently adjusting frame rates, converting formats to H.265, and tweaking playback speeds. Its goal? To squeeze every bit of quality out of your videos while keeping file sizes lean.
+## 🌟 Features
 
-## 🛠️ Getting Started
+- 📂 **Select Video Files**: Open and process various video formats.
+- ⚡ **Adjust Speed**: Speed up or slow down video playback.
+- ✂️ **Cut Scenes**: Extract specific parts of the video.
+- 🔇 **Mute Audio**: Remove audio from video segments.
+- 🖥️ **CPU Usage Control**: Adjust the CPU usage for processing.
+- 📊 **Progress Tracking**: Visual progress bar to track processing.
+- 📁 **Open Output File & Folder**: Access the processed video and its folder directly from the GUI.
+- 🔄 **Reset & Process Another Video**: Easily reset the GUI to process a new video.
 
-### Prerequisites
-Ensure you have:
-- Python 3.x installed
-- The MoviePy library
-  ```terminal
-  pip install moviepy
-  ```
+## 📋 Table of Contents
 
-## 📂 How to Use This Script
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-1. Clone this repository.
-```terminal
-git clone https://github.com/OmarElsiry/vid_playback_speed_modifier.git
-```
-4. Change the video file path in the script to match your target video.
-5. Execute the script with Python. It'll process your video based on the settings you've chosen.
+## ⚙️ Installation
 
-## 🚀 Key Features
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/video-processor-gui.git
+    ```
 
-### 🔄 Dynamic Frame Rate Adjustment
-Choose your own frame rate or let the script auto-adjust for peak performance.
+2. **Navigate to the project directory**:
+    ```sh
+    cd video-processor-gui
+    ```
 
-### 🪄 Scene Cutting
-Cut precisely where you need to, giving you full control over your edits.
+3. **Install the required dependencies**:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-### 🔇 Mute Option
-Mute your video for privacy or to reduce background noise effortlessly.
+## 🚀 Usage
 
-### 🧩 Parallel Processing
-Boost efficiency by distributing video processing across multiple CPU cores using `ThreadPoolExecutor`.
+1. **Run the application**:
+    ```sh
+    python main.py
+    ```
 
-### ⏱️ Playback Speed Adjustment
-Fine-tune playback speed to strike the right balance between video length and quality.
+2. **Select a video file** by clicking on the "Select File" button.
 
-## 👥 Contributing
+3. **Adjust settings** such as speed, cut scenes, mute audio, and CPU usage as needed.
 
-Your ideas could take this script to the next level. Follow our standard contribution process to share your enhancements.
+4. **Start processing** by clicking the "Start Processing" button.
 
-## 🗺️ Table of Contents
-- [🎥 Enhance Your Videos with Efficiency](#-enhance-your-videos-with-efficiency)
-- [🛠️ Getting Started](#-getting-started)
-- [📂 How to Use This Script](#-how-to-use-this-script)
-- [🚀 Key Features](#-key-features)
-- [🌟 Advanced Use Cases](#-advanced-use-cases)
-- [👥 Contributing](#-contributing)
+5. **Track progress** through the progress bar and wait for the completion message.
 
-## 🌟 Advanced Use Cases
+6. **Open the output file or folder** using the provided buttons.
 
-### 🎬 Video Processing Settings
+7. **Reset** the GUI to process another video using the "Process Another Video" button.
 
-#### 📉 Frame Rate Reduction
-Optimize processing efficiency with automatic or manual frame rate adjustments.
+## 📸 Screenshots
 
-#### 💾 Format Conversion
-Transform videos to H.265 for superior compression and reduced file sizes.
+Here's how the Video Processor GUI looks in action:
 
-#### ⏱️ Playback Speed Adjustment
-Customize playback speed to achieve the ideal balance between video duration and quality.
+![Video Processor GUI](https://user-images.githubusercontent.com/yourusername/video-processor-gui/screenshot.png)
 
-### 🚀 Performance Optimization
+## 🤝 Contributing
 
-#### 🖥️ CPU Core Utilization
-Fully utilize available CPU cores for faster video editing tasks using `ThreadPoolExecutor`.
+Contributions are welcome! Please follow these steps to contribute:
 
-#### 🔄 Sequential Processing
-Process each video segment sequentially for reliability and efficiency.
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```sh
+    git checkout -b feature/YourFeature
+    ```
+3. **Commit your changes**:
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+4. **Push to the branch**:
+    ```sh
+    git push origin feature/YourFeature
+    ```
+5. **Open a pull request**.
 
-## 🎯 Conclusion
+For major changes, please open an issue first to discuss what you would like to change.
 
-This script is your go-to tool for efficient video processing. With dynamic frame rate adjustments, scene cutting, muting options, and parallel processing, it elevates your video editing workflow.
+## 📜 License
 
-## 🤝 Additional Tips
-- Confirm your input video is compatible with MoviePy for the best results.
-- Experiment with playback speeds to find the perfect fit for your projects.
-- Consider integrating other video processing tools for unmatched versatility.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Credits
-Created by [Omar E. Elsiry](https://github.com/OmarElsiry)
+---
+
+> **Note**: Make sure you have the necessary permissions to process video files and that you comply with any applicable laws and regulations.
+
+## 📬 Contact
+
+- **Author**: [Your Name](https://github.com/yourusername)
+- **Email**: your.email@example.com
+
+---
+
+🌟 **Star** this repository if you found it helpful!  
+💬 Feel free to **open an issue** if you have any questions or feedback.
+
+---
+
+<div align="center">
+
+![GitHub followers](https://img.shields.io/github/followers/yourusername?style=social) 
+![GitHub stars](https://img.shields.io/github/stars/yourusername/video-processor-gui?style=social)
+
+</div>
+
+---
+
+Made with ❤️ by [Your Name](https://github.com/OmarElsiry)
